@@ -1,1 +1,1 @@
-	<?php include_once(“fashion.html") ?>
+	<?php include_once(“index.html") ?>
