@@ -1,0 +1,160 @@
+*{
+  box-sizing: border-box;
+}
+html,
+body   
+{
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+body    
+{
+  background: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header   
+{
+  background: #222;
+  color: #FFF;
+  padding: 20px 30px;
+}
+
+#logo         
+{
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  width: 49%;
+}
+
+#logo img    
+{
+  width: 50px;
+  border-radius: 3px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+#logo span  
+{
+  display: inline-block;
+}
+
+.menu-bar    
+{
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+.menu-bar ul   
+{
+  list-style: none;
+  margin: 0;
+}
+.menu-bar ul li {
+  display: inline-block;
+}
+.menu-bar ul li a    
+{
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+.menu-bar ul li:hover   
+{
+  background: #444;
+}
+.sub-menu-1
+{
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 
+{
+  display: block;
+  position: absolute;
+  background: #444
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+  display: block;
+  margin: 10px;
+  text-align: left;
+}
+.sub-menu-2
+{
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-2 
+{
+  display: block;
+  position: absolute;
+  background: #444
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul
+{
+  display: block;
+  margin: 10px;
+  text-align: left;
+}
+
+.sub-menu-3
+{
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-3 
+{
+  display: block;
+  position: absolute;
+  background: #444
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul
+{
+  display: block;
+  margin: 10px;
+  text-align: left;
+}
+
+.body           
+{
+  min-height: 800px;
+  text-align: center;
+  background-image: url('../img/skate street 3840x2400.jpg');
+  background-size: cover;
+}
+.body-content   
+{
+  color: #FFF;
+  padding-top: 130px;
+}
+.body-content h1   
+{
+  font-size: 100px;
+  margin: 0;
+}
+.body-content p    
+{
+  font-size: 50px;
+}
+.body-content a    
+{
+  display: inline-block;
+  color: #FFF;
+  border: 3px solid #FFF;
+  border-radius: 3px;
+  padding: 15px 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 28px;
+}
